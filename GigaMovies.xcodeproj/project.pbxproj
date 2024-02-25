@@ -92,8 +92,8 @@
 		FB9E5FFE2B87DB63007B5F55 /* GigaMovies */ = {
 			isa = PBXGroup;
 			children = (
-				FB9E604B2B8BA6A0007B5F55 /* DependencyInjection */,
 				FB9E600F2B87DB7C007B5F55 /* Data */,
+				FB9E604B2B8BA6A0007B5F55 /* DependencyInjection */,
 				FB9E60102B87DB80007B5F55 /* Domain */,
 				FB9E60052B87DB67007B5F55 /* GigaMovies.entitlements */,
 				FB9E60112B87DB86007B5F55 /* Presentation */,
@@ -210,9 +210,9 @@
 		FB9E60322B87E5AF007B5F55 /* MovieList */ = {
 			isa = PBXGroup;
 			children = (
-				FB9E60332B87E5C1007B5F55 /* MovieListViewModel.swift */,
-				FB9E60352B87E5CF007B5F55 /* MovieListView.swift */,
 				FB9E603C2B87E8F5007B5F55 /* MovieListItemView.swift */,
+				FB9E60352B87E5CF007B5F55 /* MovieListView.swift */,
+				FB9E60332B87E5C1007B5F55 /* MovieListViewModel.swift */,
 			);
 			path = MovieList;
 			sourceTree = "<group>";
@@ -220,9 +220,9 @@
 		FB9E60372B87E604007B5F55 /* Details */ = {
 			isa = PBXGroup;
 			children = (
+				FB9E60502B8BE839007B5F55 /* Detail.swift */,
 				FB9E60382B87E61D007B5F55 /* DetailsView.swift */,
 				FB9E604E2B8BE823007B5F55 /* DetailView.swift */,
-				FB9E60502B8BE839007B5F55 /* Detail.swift */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -230,8 +230,8 @@
 		FB9E603E2B87F073007B5F55 /* GetMovies */ = {
 			isa = PBXGroup;
 			children = (
-				FB9E602E2B87E3D8007B5F55 /* GetMoviesUseCase.swift */,
 				FB9E60302B87E417007B5F55 /* DefaultGetMoviesUseCase.swift */,
+				FB9E602E2B87E3D8007B5F55 /* GetMoviesUseCase.swift */,
 			);
 			path = GetMovies;
 			sourceTree = "<group>";
